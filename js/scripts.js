@@ -57,7 +57,7 @@ $(document).ready(function() {
       var inputtedCity = $(this).find("input.new-city").val();
       var inputtedState = $(this).find("input.new-state").val();
       var inputtedType = $(this).find(".address-type").val();
-      var newAddress = new Address(inputtedStreet, inputtedCity, inputtedState, inputtedType)
+      var newAddress = new Address(inputtedStreet, inputtedCity, inputtedState, inputtedType);
       newContact.addresses.push(newAddress)
     });
 
@@ -67,8 +67,8 @@ $(document).ready(function() {
     $("input#new-last-name").val("");
 
 
-  $(".contact").last().click(function(){
-    $("#show-contact").show();
+  $(".contact").last().hover(function(){
+    $("#show-contact").fadeToggle(800);
     $("#show-contact h2").text(newContact.fullName());
     $(".first-name").text(newContact.firstName);
     $(".last-name").text(newContact.lastName);
@@ -76,8 +76,9 @@ $(document).ready(function() {
 
     newContact.addresses.forEach(function(address) {
       $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
+        });
     });
 
   });
 });
-});
+// });
