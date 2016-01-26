@@ -21,7 +21,7 @@ Address.prototype.fullAddress = function () {
 
 $(document).ready(function() {
   $("#add-address").click(function(){
-    $(".new-addresses").append('<div class="new-addresses">'+
+    $("#main-address").append('<div class="new-addresses">'+
                                   '<form id="new-contact">' +
                                     '<label for="addressType">Address Type</label>' +
                                     '<select class="address-type" class="form-control">' +
