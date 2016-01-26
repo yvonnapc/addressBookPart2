@@ -18,14 +18,7 @@
           <h2>Add a Contact:</h2>
 
           <form id="new-contact">
-            <label for="addressType">Address Type</label>
-            <select id="addressType" class="form-control">
-              <option value="Home">Home</option>
-              <option value="Work">Work</option>
-              <option value="Restaurant">Restaurant</option>
-              <option value="Shopping">Shopping</option>
-              <option value="Cabin">Cabin</option>
-            </select><br>
+
             <div class="form-group">
               <label for="new-first-name">First Name</label>
               <input type="text" class="form-control" id="new-first-name">
@@ -34,8 +27,17 @@
               <label for="lastName">Last Name</label>
               <input type="text" class="form-control" id="new-last-name">
             </div>
-            <div id="new-addresses">
+            <div class="new-addresses">
               <div class="new-address">
+                <form id="new-contact">
+                  <label for="addressType">Address Type</label>
+                  <select class="address-type" class="form-control">
+                    <option value="Home">Home</option>
+                    <option value="Work">Work</option>
+                    <option value="Restaurant">Restaurant</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Cabin">Cabin</option>
+                  </select><br>
                 <div class="form-group">
                   <label for="new-street">Street</label>
                   <input type="text" class="form-control new-street">
