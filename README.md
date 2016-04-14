@@ -1,37 +1,39 @@
-# _{Application Name}_
+#_Address Book 2.0_
 
-#### _{Brief description of application}, {Date of current version}_
-
-#### By _**Nic Netzel ( thanks to my pair partners this week, whose names may show up in the commits due to the fact that I worked on this during lunches and was set up as a pair)**_
+#### Address Book revisited   | January 26, 2016
+ 
+#### By: Yvonna Contreras 
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Intro to Programming: Simple Address Book 2.0 App. An extension of the previous Address Book app, this app introduces the over feature that appends information on a single entry.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+1. Open Terminal and clone into this repository: https://github.com/yvonnapc/intro-addressbook2.git
+2. Drag the ```index.html ``` file onto your browser and the site will load
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+N/A
 
-## Support and contact details
+## Support and Contact Details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+If you have any issues, questions, ideas, or concerns contact us through GitHub. If you would like to make a contribution to the code, feel free to do so and notify me by e-mail.
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+• HTML<br>
+• CSS<br>
+• jQuery<br>
+• Atom<br>
+• Terminal<br>
+• Bootstrap<br>
+• Markdown<br>
+• GIT<br>
+• Mocha<br>
+• Chai<br>
 
-### License
+## License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2016  |  Yvonna Contreras  & Nic Netzel  |  Epicodus  |  Portland, OR
